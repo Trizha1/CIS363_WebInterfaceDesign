@@ -1,0 +1,78 @@
+body {
+	background: linear-gradient(to bottom, white, LightPink)
+}
+
+
+header {
+	Background-color: LightCoral;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #003;
+	text-align: center;
+	margin: 20px;
+	font-family: Monotype Corsiva;
+	color: black;
+
+}
+	
+section {
+	font-family: Bahnschrift Light;
+	background-color: LavenderBlush;
+	color: black;
+	border-width: thin;
+	border-bottom-style: solid;
+	border-color: MistyRose;
+	font-size: 18px;
+	text-align: center;
+}
+
+h3 {
+	font-family:  Bahnschrift;
+	border-width: thick;
+	border-style: dotted;
+	border-color: maroon;
+}
+
+li {
+	font-family:  Bahnschrift Light;
+	
+}
+
+nav {
+  float: center;
+  width: 30%;
+  background: PaleVioletRed;
+  padding: 5px;
+  border-color: black;
+  border-bottom-width: thin;
+  border-style: solid;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+	}
+
+a:visited {
+	color: MistyRose;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: salmon;
+	text-decoration: none;
+	}
+	
+footer {
+	Background-color: LightCoral;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #003;
+	margin: 20px;
+	font-family: Bahnschrift Light;
+	color: black;
+	font-size: 12px;
+}
