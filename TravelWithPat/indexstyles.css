@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+.nav {
+	background-color: #ffe4e1;
+	overflow: hidden;
+	
+}
+
+.nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Georgia Pro light;
+	
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav a.active {
+  color: white;
+}
+
+.nav .search-container {
+  float: right;
+}
+
+.nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.nav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .nav .search-container {
+    float: none;
+  }
+  .nav a, .nav input[type=text], .nav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .nav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+  
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightgray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ 
+ 
+.main {
+  background: linear-gradient(to bottom, white, LavenderBlush);
+  width: 800px;
+  border: 10px double MistyRose;
+  padding: 25px;
+  margin: auto;
+  font-family: lucida sans unicode;
+  overflow: auto;
+  text-align: center;
+  color: rosybrown;
+}
+
+.img1 {
+	padding: 25px;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   top: 0;
+   width: 100%;
+   background-color: #dcdcdc;
+   color: #696969;
+   text-align: left;
+   font-family: lucida sans unicode;
+}
+
