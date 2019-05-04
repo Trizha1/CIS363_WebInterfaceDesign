@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title> About </title>
+</head>
+
+<body>
+<div class="header">
+<a href="index.htm">
+<img src="images/twplogo.png" alt="twp logo" width="324" height="259"></a>
+</div>
+
+<link rel="stylesheet" href="css/aboutstyles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="nav">
+<a href="index.htm">Home</a>
+
+<div class="dropdown">
+    <button class="dropbtn">Destination<i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="NA.html">North America</a>
+      <a href="SA.html">South America</a>
+      <a href="africa.html">Africa</a>
+	  <a href="europe.html">Europe</a>
+	  <a href="asia.html">Asia</a>
+	  <a href="oceania.html">Oceania</a>
+    </div>
+</div>
+
+<a href="blog.html">Blog</a>
+<a class="active" href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="subscribe.html">Subscribe</a>
+
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+ 
+ 
+
+</div>
+
+
+<div class="main">
+<div class="row">
+  <div class="column">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img2" src="images/aboutme.png" alt="About Me" width="234" height="236">
+  	<script>
+	function bigImg(x) {
+	x.style.height = "336px";
+	x.style.width = "334px";
+}
+
+	function normalImg(x) {
+	x.style.height = "236px";
+	x.style.width = "234px";
+}
+	</script>
+    <h1>Who Am I?</h1>
+    <p>Hello there! My name is Patrizha, but you can call me Pat for short. I was born in the Philippines and currently 
+  living in California. I have a full-time job and also a full-time student. I am pursuing a bachelor's in database management. 
+  I love fashion, eating, sleeping and exploring. Growing up in the province area taught me how to love and appreciate nature -
+  this is how my curiosity about the world begins.Being a full-time working student, I try to take vacations every once a year with my friends and family.  </p>
+  </div>
+  <div class="column">
+  <script>
+	function bigImg2(x) {
+	x.style.height = "225px";
+	x.style.width = "220px";
+}
+
+	function normalImg2(x) {
+	x.style.height = "125px";
+	x.style.width = "120px";
+}
+</script>
+    <h1>Check Out My Profile</h1>
+    <p>
+	<a href="https://www.instagram.com/tuuwiizhaa/?hl=en" target="_blank" >
+  <img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" src="images/ig.png" alt="instagram" style="width:120px;height:125px;" hspace="20">
+ </a>
+
+ 
+<a href="https://www.facebook.com/trizha.cruz" target="_blank">
+  <img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" src="images/fb.png" alt="facebook" style="width:120px;height:125px;" hspace="20">
+</a>
+
+<a href="https://www.linkedin.com/in/patrizha-cruz/" target="_blank">
+  <img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" src="images/li.png" alt="linkedin" style="width:120px;height:125px;" hspace="20">
+</a>
+
+
+
+</p>
+  </div>
+</div>
+</div>
+
+<div class="footer">
+&copy; Copyright 2019 Travel with Pat | All Rights Reserved
+</div>
+
+</body>
+</html>
