@@ -1,2 +1,2 @@
 # CIS363_WebInterfaceDesign
-A personal blog and resume website for CIS363- Web Interface Design
+Labs and course projects for CIS363- Web Interface Design
